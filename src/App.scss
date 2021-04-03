@@ -29,6 +29,12 @@ body {
 	.passButton {
 		width: 100%;
 		height: 5em;
+		outline: none;
+		border: none;
+	}
+
+	.ui {
+		background: none;
 		border: none;
 		outline: none;
 	}
