@@ -81,13 +81,6 @@ class App extends React.Component{
 	render() {
 		return (
 			<div className="App">
-
-				<link rel="stylesheet" 
- href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
- integrity="sha384- 
- 50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-					crossorigin="anonymous"/>
-
 				<div id="clock-container">
 					<button onClick={this.whitePass} className="passButton" disabled={this.state.turn != 0}/>
 
